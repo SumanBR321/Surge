@@ -7,7 +7,7 @@ dist-ssr/
 # Python / Backend
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 *.db
 .env
 .venv/
