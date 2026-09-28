@@ -32,4 +32,4 @@ def run_seed(db: Session) -> None:
         db.add(NonNegotiable(area=nn["area"], rule=nn["rule"]))
 
     db.commit()
-    print("✅ Database seeded from timetable_seed.json")
+    print("Database seeded from timetable_seed.json")
